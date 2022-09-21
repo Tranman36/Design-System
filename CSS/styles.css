@@ -1,0 +1,269 @@
+
+html {
+    background-color: #D3D3D3;
+}
+
+#header {
+    background-color: #008B8B;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 10px 45px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 20px 20px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Roboto";
+}
+
+.navlink {
+    list-style-type: none;
+}
+
+.nav-item {
+    font-size: 12px;
+    font-weight: 900px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-links {
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 750px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color:#6495ED;
+    border: 1px solid black;
+    border-radius: 15px 15px;
+    padding: 15px 110px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+.nav-links:hover {
+   cursor: pointer;
+   color: red;
+   background-color: white; 
+   transition:  color 1s ease-in-out;
+}
+
+#colors {
+    text-align: center;
+    position: relative; 
+    border: 1px solid #FFFFF0;
+    background-color: #FFFFF0;
+    border-radius: 15px 15px;
+    margin-bottom: 15px;
+    padding: 14px auto;
+   }
+
+#fonts {
+    text-align: center;
+    border: 1px solid #FFFFF0;
+    background-color: #FFFFF0;
+    border-radius: 15px 15px;
+    margin-bottom: 15px;
+    padding: 14px auto;
+}
+
+.colors-title, .fonts-title, .text-styles-title, .buttons-title {
+    text-decoration: none;
+    font-size: 36px;
+    text-align: center; 
+}
+
+#text-styles {
+    border: 1px solid #FFFFF0;
+    background-color: #FFFFF0;
+    border-radius: 15px 15px;
+    margin-bottom: 15px;
+    padding: 14px auto;
+}
+
+#buttons {
+    text-align: center;
+    border: 1px solid #FFFFF0;
+    background-color: #FFFFF0;
+    border-radius: 15px 15px;
+    margin-bottom: 15px;
+    padding: 14px auto;
+    text-decoration: underline;
+}
+
+.color-palette-1, .color-palette-2, .color-palette-3, .color-palette-4 {
+    font-family: "Indie Flower"; 
+    font-size: 20px;
+}
+.color-palette-1 {
+    background-color:#008B8B;
+    border: 1px solid #000000;
+    color: #ffffff; 
+    padding: 15px 50px;
+    width: 30%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    line-height: 5px;
+}
+
+.color-palette-1:hover {
+    background-color: white;
+    color: #008B8B;
+    transition: background-color .6s, color .6s ease-in-out;
+}
+
+.color-palette-2 {
+    background-color: #6495ED;
+    border: 1px solid #000000;
+    color: white; 
+    padding: 15px 50px;
+    width: 30%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    line-height: 5px;
+}
+
+.color-palette-2:hover {
+    background-color: white;
+    color: #6495ED;
+    transition: background-color 1s, color 1s ease-in-out;
+}
+
+.color-palette-3 {
+    background-color: #D3D3D3;
+    border: 1px solid #000000;
+    color: white;
+    padding: 15px 50px;
+    width: 30%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    line-height: 5px;
+}
+
+.color-palette-3:hover {
+    background-color: white;
+    color: #D3D3D3;
+    transition: background-color .6s, color .6s ease-in-out;
+}
+
+.color-palette-4 {
+    background-color: #483D8B;
+    border: 1px solid #000000;
+    color: white; 
+    padding: 15px 50px;
+    width: 30%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px; 
+    line-height: 5px;
+}
+
+.color-palette-4:hover {
+    background-color: white;
+    color: #483D8B;
+    transition: background-color .6s, color .6s ease-in-out;
+}
+
+.font1, .font2, .font3, .font4 {
+    display: inline-block; 
+}
+.text-styles-1, .text-styles-2, .text-styles-3 {
+    display: block;
+}
+
+.text-styles-1 {
+    display: block;
+}
+
+.text-styles-2 {
+    display: block
+}
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic; 
+}
+
+.font1, .font2, .font3, .font4 {
+    font-size: 20px;
+}
+.font1 {
+    font-family: 'Roboto', sans-serif;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    margin: 30px;
+}
+
+.font2 {
+    font-family: 'Lato', sans-serif;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    margin: 30px;
+}
+
+.font3 {
+    font-family: 'Cabin Condensed', sans-serif;
+    width: 30%;
+    height: 100%;
+    display: inline-block; 
+    margin: 30px;
+}
+
+.font4 {
+   font-family: 'Indie Flower', cursive;
+   width: 30%;
+   height: 100%;
+   display: inline-block; 
+   margin: 30px; 
+}
+
+.font-item {
+    text-decoration: underline; 
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 900;
+    font-family: "Roboto";
+}
+
+h2 {
+    font-family: "Lato";
+    font-weight: 750;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+footer {
+    background-color:#483D8B;
+    width: 100%;
+    color: white; 
+    padding: 16px 16px;
+    text-align: center;
+    font-family: "Cabin Condensed";
+    font-size: 24px;
+}
